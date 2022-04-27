@@ -41,30 +41,6 @@ public:
             fin >> start >> end;
             degree[start - 1]++;
             degree[end - 1]++;
-            /*if (table[start - 1].head) {
-                Element* temp = table[start - 1].head;
-                Element* dot = new Element;
-                dot->number = end - 1;
-                dot->next = temp;
-                table[start - 1].head = dot;
-            }
-            else {
-                table[start - 1].head = new Element;
-                table[start - 1].head->number = end - 1;
-                table[start - 1].head->next = nullptr;
-            }
-            if (table[end - 1].head) {
-                Element* temp = table[end - 1].head;
-                Element* dot = new Element;
-                dot->number = start - 1;
-                dot->next = temp;
-                table[end - 1].head = dot;
-            }
-            else {
-                table[end - 1].head = new Element;
-                table[end - 1].head->number = start - 1;
-                table[end - 1].head->next = nullptr;
-            }*/
         }
     }
  
